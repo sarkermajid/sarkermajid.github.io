@@ -48,6 +48,28 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/* Responsive styles for mobile view */
+@media (max-width: 1024px) {
+  body::before {
+    background-attachment: scroll;
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body::before {
+    background-attachment: scroll;
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  body::before {
+    background-attachment: scroll;
+    background-position: center;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
